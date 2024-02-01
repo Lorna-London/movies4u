@@ -103,7 +103,7 @@
     color: dimgray;   
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .body {
         text-align: center;
     }
@@ -112,6 +112,16 @@
     }
     .movies-form {
         justify-content: center;
+    }
+    .search-btn {
+        color: black;
+        background-color: white;
+    }
+    .search-btn:hover {
+        border: 1px solid white;
+    }
+    .clear-btn:hover {
+        border: 1px solid red;
     }
     .copyright {
         text-align: center;
