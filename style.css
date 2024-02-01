@@ -13,10 +13,11 @@
     background-color: black;
     background-image: url('images/camera.jpg');
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position-y: top;
+    background-size: contain;
+    background-position-x: right;
     background-blend-mode: hard-light;
     padding: 45px;
+    text-align: center;
 }
 
 
@@ -36,6 +37,7 @@
     margin-top: 40px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     align-items: baseline;
 }
 
