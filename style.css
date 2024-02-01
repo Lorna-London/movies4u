@@ -20,8 +20,6 @@
     text-align: center;
 }
 
-
-
 .title {
     color: red;
     font-size: 3.5rem;
@@ -62,10 +60,11 @@
 
 .search-btn {
     padding: var(--small-padding);
-    color: black;
+    color: white;
     font-size: 1.4rem;
     font-weight: 100;
-    background-color: white;
+    background-color: black;
+    border: 1px solid dimgray;
     border-radius: 3px;
     padding: 7px;
     margin-right: 5px;
@@ -86,7 +85,7 @@
 }
 
 .clear-btn:hover {
-    border: 1px solid red;
+    border: 1px solid white;
 }
 
 .images-container {
