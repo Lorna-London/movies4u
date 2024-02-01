@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    --small-padding: 6px;
+    border: none;
+}
+
+.body {
+    height: 100vh;
+    font-family: 'Anton';
+    font-weight: 100;
+    background-color: black;
+    background-image: url('images/camera.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: top;
+    background-blend-mode: hard-light;
+    padding: 45px;
+}
+
+
+
+.title {
+    color: red;
+    font-size: 3.5rem;
+    font-weight: 100;
+}
+
+.title:hover {
+    color: white;
+}
+
+.movies-form {
+    height: auto;
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+}
+
+.search-box {
+    width: 300px;
+    padding: var(--small-padding);
+    font-size: 1.4rem;
+    color: white;
+    background-color: rgb(39, 37, 37);
+    margin-bottom: 20px;
+    padding: 9px;
+    margin-right: 9px;
+}
+
+.search-box:hover{
+    background-color: rgb(52, 49, 49);
+}
+
+.btn-container {
+
+}
+
+.search-btn {
+    padding: var(--small-padding);
+    color: black;
+    font-size: 1.4rem;
+    font-weight: 100;
+    background-color: white;
+    border-radius: 3px;
+    padding: 7px;
+    margin-right: 5px;
+}
+
+.search-btn:hover {
+    border: 1px solid white;
+}
+
+.clear-btn {
+    padding: var(--small-padding);
+    color: white;
+    font-size: 1.4rem;
+    font-weight: 100;
+    background-color: red;
+    border-radius: 3px;
+    padding: 7px;
+}
+
+.clear-btn:hover {
+    border: 1px solid red;
+}
+
+.images-container {
+    
+}
+
+.size-images {
+    width: 250px;
+    height: 300px;
+}
+
+.copyright { 
+    margin-top: 95vh;  
+    font-size: 0.8rem;
+    color: dimgray;   
+}
+
+@media screen and (max-width: 768px) {
+    .body {
+        text-align: center;
+    }
+    .title {
+        font-size: 2rem;
+    }
+    .movies-form {
+        justify-content: center;
+    }
+    .copyright {
+        text-align: center;
+    }
+}
