@@ -94,10 +94,16 @@
 }
 
 .copyright { 
-    margin-top: 95vh;  
-    font-size: 0.8rem;
-    color: dimgray;   
+position: absolute; 
+top: 97%;
+left: 50%;
+transform: translate(-50%,-50%); 
+font-size: 0.8rem;
+color: dimgray;   
+text-align: center;    
 }
+
+
 
 .heart-icon {
     font-size: 0.9rem;
