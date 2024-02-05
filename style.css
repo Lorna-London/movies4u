@@ -99,6 +99,11 @@
     color: dimgray;   
 }
 
+.heart-icon {
+    font-size: 0.9rem;
+    color: red;
+}
+
 @media screen and (max-width: 768px) {
     .body {
         text-align: center;
