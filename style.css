@@ -22,15 +22,11 @@
 
 .title {
     color: red;
-    font-size: 3.5rem;
+    font-size: 4rem;
     font-weight: 100;
 }
 
-.title:hover {
-    color: white;
-}
-
-.movies-form {
+.form {
     height: auto;
     margin-top: 40px;
     display: flex;
@@ -54,10 +50,6 @@
     background-color: rgb(52, 49, 49);
 }
 
-.btn-container {
-
-}
-
 .search-btn {
     padding: var(--small-padding);
     color: white;
@@ -74,7 +66,7 @@
     border: 1px solid white;
 }
 
-.clear-btn {
+.delete-btn {
     padding: var(--small-padding);
     color: white;
     font-size: 1.4rem;
@@ -84,7 +76,7 @@
     padding: 7px;
 }
 
-.clear-btn:hover {
+.delete-btn:hover {
     border: 1px solid white;
 }
 
@@ -98,9 +90,18 @@
 }
 
 .copyright { 
-    margin-top: 95vh;  
-    font-size: 0.8rem;
-    color: dimgray;   
+position: absolute; 
+top: 97%;
+left: 50%;
+transform: translate(-50%,-50%); 
+font-size: 0.8rem;
+color: dimgray;   
+text-align: center;    
+}
+
+.heart-icon {
+    font-size: 0.9rem;
+    color: red;
 }
 
 @media screen and (max-width: 767px) {
@@ -114,6 +115,7 @@
         justify-content: center;
     }
     .search-btn {
+<<<<<<< HEAD
         color: black;
         background-color: white;
     }
@@ -122,6 +124,10 @@
     }
     .clear-btn:hover {
         border: 1px solid red;
+=======
+        background-color: white;
+        color: black;
+>>>>>>> contain
     }
     .copyright {
         text-align: center;
