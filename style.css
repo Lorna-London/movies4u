@@ -1,13 +1,13 @@
+html {
+    scroll-behavior: smooth;
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     --small-padding: 6px;
     border: none;
-}
-
-html {
-    scroll-behavior: smooth;
 }
 
 .body {
@@ -128,14 +128,15 @@ html {
 
 @media screen and (max-width: 767px) {
     .body {
-        padding-top: 5%;
+        padding-top: 7%;
         text-align: center;
     }
     .title {
         font-size: 2rem;
     }
-    .movies-form {
+    .form {
         justify-content: center;
+        margin-top: 30px;
     }
     .search-btn {
         color: black;
