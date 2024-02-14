@@ -1,10 +1,7 @@
 const form = document.querySelector('#form');
-const searchBox = document.querySelector('search-box');
 const searchButton = document.querySelector('#search-btn');
 const deleteButton = document.querySelector('#delete-btn');
 const imagesContainer = document.querySelector('#images-container');
-const body = document.querySelector('#body');
-
 
 form.addEventListener('submit', async function (e) {
     e.preventDefault();

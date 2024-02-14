@@ -105,11 +105,9 @@ html {
 }
 
 .arrow-up {
-    width: 50px;
-    height: 50px;
     position: fixed;
     top: 90vh;
-    right: 1%;
+    right: 2%;
     font-size: 1.5rem;
     color: gainsboro;
 }
