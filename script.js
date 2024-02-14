@@ -36,7 +36,7 @@ for(let result of shows) {
     }
 
 const deleteImages = function () {
-    
+    imagesContainer.innerHTML = "";
 }
 
 deleteButton.addEventListener('click', deleteImages);
