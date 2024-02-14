@@ -24,10 +24,6 @@ html {
     text-align: center;
 }
 
-.header {
-
-}
-
 .title {
     color: red;
     font-size: 4rem;
@@ -130,11 +126,7 @@ html {
     color: red;
 }
 
-<<<<<<< HEAD
 @media screen and (max-width: 767px) {
-=======
-@media screen and (max-width: 600px) {
->>>>>>> semantic
     .body {
         text-align: center;
     }
@@ -145,7 +137,6 @@ html {
         justify-content: center;
     }
     .search-btn {
-<<<<<<< HEAD
         color: black;
         background-color: white;
     }
@@ -154,10 +145,6 @@ html {
     }
     .clear-btn:hover {
         border: 1px solid red;
-=======
-        background-color: white;
-        color: black;
->>>>>>> contain
     }
     .images-container {
         padding-top: 20px;
