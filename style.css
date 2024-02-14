@@ -6,6 +6,10 @@
     border: none;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .body {
     height: 100vh;
     font-family: 'Anton';
@@ -31,7 +35,7 @@
 }
 
 .main {
-  
+  position: relative;
 }
 
 .form {
@@ -101,27 +105,21 @@
 }
 
 .arrow-up {
-    position: absolute;
-    right: 10%;
-    font-size: 2rem;
-    color: white;
-    visibility: hidden;
-}
-
-.hide {
-    visibility: hidden;
-}
-
-.visible {
-    visibility: visible;
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    top: 90vh;
+    right: 1%;
+    font-size: 1.5rem;
+    color: gainsboro;
 }
 
 .footer {
     height: auto;
     top: 98vh;
-    background-color: blue;
     display: flex;
     justify-content: center;
+    padding-bottom: 2%;
 }
 
 .copyright { 

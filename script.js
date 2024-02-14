@@ -35,8 +35,8 @@ for(let result of shows) {
       } 
     }
 
- const deleteImages = function () {
-    imagesContainer.classList.add('hide');
+const deleteImages = function () {
+    
 }
 
 deleteButton.addEventListener('click', deleteImages);
