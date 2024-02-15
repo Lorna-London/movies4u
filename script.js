@@ -27,7 +27,7 @@ for(let result of shows) {
         const img = document.createElement('img');
         img.src = result.show.image.medium;   
         imagesContainer.append(img);  
-        img.style.borderRadius = '12px';
+        img.classList.add('img');
         } 
       } 
     }
