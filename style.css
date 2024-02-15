@@ -63,7 +63,7 @@ html {
     padding: var(--small-padding);
     color: white;
     font-size: 1.3rem;
-    font-weight: 600;
+    font-weight: 300;
     background-color: black;
     border: 1px solid dimgray;
     border-radius: 3px;
@@ -79,7 +79,7 @@ html {
     padding: var(--small-padding);
     color: black;
     font-size: 1.3rem;
-    font-weight: 600;
+    font-weight: 300;
     background-color: red;
     border-radius: 3px;
     padding: 7px;
