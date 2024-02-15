@@ -107,6 +107,10 @@ html {
     border-radius: 12px;
 }
 
+.img:hover {
+    border: black;
+}
+
 .arrow-up {
     position: fixed;
     top: 90vh;
