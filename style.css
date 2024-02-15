@@ -77,9 +77,9 @@ html {
 
 .delete-btn {
     padding: var(--small-padding);
-    color: white;
+    color: black;
     font-size: 1.3rem;
-    font-weight: 300;
+    font-weight: 600;
     background-color: red;
     border-radius: 3px;
     padding: 7px;
