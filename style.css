@@ -96,13 +96,13 @@ html {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 10px;
+    gap: 20px;
     margin-bottom: 15%;
 }
 
 .img {
     max-width: 100%;
-    height: 50%;
+    height: 30%;
     border: 1px solid black;
     border-radius: 12px;
 }
@@ -114,7 +114,7 @@ html {
 .arrow-up {
     position: fixed;
     top: 90vh;
-    right: 2%;
+    right: 3%;
     font-size: 1.5rem;
     color: gainsboro;
 }
@@ -163,7 +163,7 @@ html {
         padding-top: 20px;
     }
     .arrow-up {
-        right: 10%;
+        right: 5%;
     }
     .copyright {
         text-align: center;
