@@ -20,7 +20,6 @@ html {
     background-size: contain;
     background-position-x: right;
     background-blend-mode: hard-light;
-    padding: 45px;
     text-align: center;
 }
 
@@ -42,6 +41,7 @@ html {
     flex-wrap: wrap;
     justify-content: center;
     align-items: baseline;
+    gap: 10px;
 }
 
 .search-box {
@@ -52,7 +52,7 @@ html {
     background-color: rgb(39, 37, 37);
     margin-bottom: 20px;
     padding: 9px;
-    margin-right: 9px;
+    border-radius: 24px;
 }
 
 .search-box:hover{
@@ -61,12 +61,12 @@ html {
 
 .search-btn {
     padding: var(--small-padding);
-    color: white;
+    color: floralwhite;
     font-size: 1.3rem;
     font-weight: 500;
     background-color: black;
     border: 1px solid dimgray;
-    border-radius: 3px;
+    border-radius: 24px;/*3px;*/
     padding: 7px;
     margin-right: 5px;
 }
@@ -80,8 +80,8 @@ html {
     color: black;
     font-size: 1.3rem;
     font-weight: 500;
-    background-color: red;
-    border-radius: 3px;
+    background-color: floralwhite;
+    border-radius: 24px;/*3px;*/
     padding: 7px;
 }
 
@@ -102,7 +102,7 @@ html {
 
 .img {
     max-width: 100%;
-    height: 50%;
+    height: 30%;
     border: 1px solid black;
     border-radius: 12px;
 }
@@ -113,8 +113,8 @@ html {
 
 .arrow-up {
     position: fixed;
-    top: 90vh;
-    right: 3%;
+    top: 95vh;
+    right: 5%;
     font-size: 1.5rem;
     color: gainsboro;
 }
@@ -143,21 +143,11 @@ html {
         text-align: center;
     }
     .title {
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
     .form {
         justify-content: center;
         margin-top: 30px;
-    }
-    .search-btn {
-        color: black;
-        background-color: white;
-    }
-    .search-btn:hover {
-        border: 1px solid white;
-    }
-    .clear-btn:hover {
-        border: 1px solid red;
     }
     .images-container {
         padding-top: 20px;
