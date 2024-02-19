@@ -78,11 +78,11 @@ html {
     padding-bottom: 7px;
     padding-left: 10px;
     padding-right: 10px;
+    background-color: black;
 }
 
 .search-btn {
     color: floralwhite;
-    background-color: black;
     border: 1px solid dimgray;
 }
 
@@ -93,7 +93,6 @@ html {
 .delete-btn {
     color: red;
     border: 1px solid red;
-    background-color: transparent;
 }
 
 .delete-btn:hover {
