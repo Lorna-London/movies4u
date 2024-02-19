@@ -49,7 +49,7 @@ html {
 }
 
 .search-box {
-    width: 320px;
+    width: 310px;
     padding: var(--small-padding);
     font-size: 1.4rem;
     color: white;
