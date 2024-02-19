@@ -36,6 +36,7 @@ html {
 }
 
 .form {
+    width: auto;
     height: auto;
     margin-top: 40px;
     margin-bottom: 10px;
@@ -47,13 +48,13 @@ html {
 }
 
 .search-box {
-    width: 300px;
+    width: 320px;
     padding: var(--small-padding);
     font-size: 1.4rem;
     color: white;
     background-color: rgb(39, 37, 37);
     margin-bottom: 20px;
-    padding: 9px;
+    padding: 9px 9px 9px 15px;
     border-radius: 24px;
 }
 
@@ -82,15 +83,16 @@ html {
 
 .delete-btn {
     padding: var(--small-padding);
-    color: black;
+    color: red;
     font-size: 1.3rem;
     font-weight: 500;
-    background-color: floralwhite;
     border-radius: 24px;/*3px;*/
     padding-top: 7px;
     padding-bottom: 7px;
     padding-left: 10px;
     padding-right: 10px;
+    border: 1px solid red;
+    background-color: transparent;
 }
 
 .delete-btn:hover {
@@ -123,7 +125,7 @@ html {
     position: fixed;
     top: 90vh;
     right: 5%;
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     color: gainsboro;
 }
 
