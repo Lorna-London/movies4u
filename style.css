@@ -131,8 +131,7 @@ html {
 }
 
 .footer {
-  
-    height: auto;
+    position: sticky;
     top: 98vh;
     display: flex;
     justify-content: center;
@@ -140,8 +139,6 @@ html {
 }
 
 .copyright {   
-    position: absolute;
-    top: 95vh;
     font-size: 0.8rem;
     color: darkgray;   
     padding-bottom: 1%;
