@@ -11,6 +11,7 @@ html {
 }
 
 .body {
+    position: relative;
     height: 100vh;
     font-family: 'Anton';
     font-weight: 100;
@@ -32,7 +33,7 @@ html {
 
 .main {
   position: relative;
-  height: 90vh;
+  height: auto;
 }
 
 .form {
@@ -126,10 +127,11 @@ html {
     top: 90vh;
     right: 5%;
     font-size: 2.5rem;
-    color: gainsboro;
+    color: rgba(220, 220, 220, 0.8);
 }
 
 .footer {
+  
     height: auto;
     top: 98vh;
     display: flex;
@@ -137,9 +139,11 @@ html {
     padding-bottom: 2%;
 }
 
-.copyright { 
+.copyright {   
+    position: absolute;
     font-size: 0.8rem;
     color: darkgray;   
+    padding-bottom: 3%;
 }
 
 .heart-icon {
