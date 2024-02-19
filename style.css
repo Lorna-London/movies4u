@@ -141,9 +141,10 @@ html {
 
 .copyright {   
     position: absolute;
+    top: 95vh;
     font-size: 0.8rem;
     color: darkgray;   
-    padding-bottom: 3%;
+    padding-bottom: 1%;
 }
 
 .heart-icon {
