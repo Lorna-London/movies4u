@@ -59,23 +59,31 @@ html {
     border-radius: 24px;
 }
 
+.btn-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
 .search-box:hover{
     background-color: rgb(52, 49, 49);
 }
 
-.search-btn {
-    padding: var(--small-padding);
-    color: floralwhite;
+.buttons {  
     font-size: 1.3rem;
     font-weight: 500;
-    background-color: black;
-    border: 1px solid dimgray;
-    border-radius: 24px;/*3px;*/
+    border-radius: 24px;
     padding-top: 7px;
     padding-bottom: 7px;
     padding-left: 10px;
     padding-right: 10px;
-    margin-right: 5px;
+}
+
+.search-btn {
+    color: floralwhite;
+    background-color: black;
+    border: 1px solid dimgray;
 }
 
 .search-btn:hover {
@@ -83,15 +91,7 @@ html {
 }
 
 .delete-btn {
-    padding: var(--small-padding);
     color: red;
-    font-size: 1.3rem;
-    font-weight: 500;
-    border-radius: 24px;/*3px;*/
-    padding-top: 7px;
-    padding-bottom: 7px;
-    padding-left: 10px;
-    padding-right: 10px;
     border: 1px solid red;
     background-color: transparent;
 }
