@@ -3,6 +3,10 @@ const searchButton = document.querySelector('#search-btn');
 const deleteButton = document.querySelector('#delete-btn');
 const imagesContainer = document.querySelector('#images-container');
 
+form.addEventListener('submit', async function (e) {
+    e.preventDefault();
+    getMovies();
+});   
 
 const getMovies = async function () {
     try {
@@ -27,11 +31,6 @@ for(let result of shows) {
         } 
       } 
     }
-
-form.addEventListener('submit', async function (e) {
-        e.preventDefault();
-        getMovies();
-    })   
 
 const deleteImages = function () {
     imagesContainer.innerHTML = "";

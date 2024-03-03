@@ -60,15 +60,15 @@ html {
     border-radius: 24px;
 }
 
+.search-box:hover{
+    background-color: rgb(52, 49, 49);
+}
+
 .btn-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 10px;
-}
-
-.search-box:hover{
-    background-color: rgb(52, 49, 49);
 }
 
 .buttons {  
@@ -142,7 +142,6 @@ html {
 .copyright {   
     font-size: 0.8rem;
     color: darkgray;   
-    padding-bottom: 1%;
 }
 
 .heart-icon {
