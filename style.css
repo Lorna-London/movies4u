@@ -127,8 +127,9 @@ html {
     position: fixed;
     top: 90vh;
     right: 5%;
-    font-size: 2.5rem;
-    color: rgba(220, 220, 220, 0.8);
+    font-size: 2.5rem; /*try 3rem*/
+    /*color: rgba(220, 220, 220, 0.8);*/
+    color: aliceblue;
 }
 
 .footer {
