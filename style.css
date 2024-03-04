@@ -160,7 +160,7 @@ html {
 @media screen and (max-width: 767px) {
     .body {
         text-align: center;
-        background-image: none;
+        /*background-image: none;*/
     }
     .title {
         font-size: 2rem;
