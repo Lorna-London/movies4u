@@ -151,7 +151,6 @@ html {
 
 @media  screen and (max-width: 1024px) {
     .body {
-        /*background-image: none;*/
         padding-top: 7%;
     }
 }
@@ -159,7 +158,6 @@ html {
 @media screen and (max-width: 767px) {
     .body {
         text-align: center;
-        background-image: none;
     }
     .title {
         font-size: 2rem;
